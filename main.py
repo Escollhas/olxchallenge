@@ -1,5 +1,5 @@
+from app.views import zap, viva_real
 from fastapi import FastAPI
-from views import zap, viva_real
 
 app = FastAPI()
 app.include_router(zap.zap_view)
